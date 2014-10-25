@@ -57,22 +57,66 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Estilos\agency.css" />
     <Content Include="Estilos\bootstrap-theme.min.css" />
     <Content Include="Estilos\bootstrap.css" />
     <Content Include="Estilos\bootstrap.min.css" />
     <Content Include="Estilos\bootswatch.min.css" />
+    <Content Include="Estilos\font-awesome.min.css" />
+    <Content Include="Fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Images\1.jpg" />
+    <Content Include="Images\2.jpg" />
+    <Content Include="Images\3.jpg" />
+    <Content Include="Images\4.jpg" />
     <Content Include="Images\bg_suburb.jpg" />
+    <Content Include="Images\creative-market.jpg" />
+    <Content Include="Images\designmodo.jpg" />
+    <Content Include="Images\dreams-preview.png" />
+    <Content Include="Images\dreams.png" />
+    <Content Include="Images\envato.jpg" />
+    <Content Include="Images\escape-preview.png" />
+    <Content Include="Images\escape.png" />
+    <Content Include="Images\financial-planning-audit-reporting.jpg" />
     <Content Include="Images\flash-placeholder.jpg" />
+    <Content Include="Images\fortune_wallpaper.jpg" />
+    <Content Include="Images\golden-preview.png" />
+    <Content Include="Images\golden.png" />
     <Content Include="Images\gridgum.png" />
+    <Content Include="Images\header-bg.jpg" />
     <Content Include="Images\logo.png" />
+    <Content Include="Images\logo_smart.jpg" />
+    <Content Include="Images\map-image.png" />
     <Content Include="Images\pergamino_dubai.png" />
+    <Content Include="Images\roundicons-free.png" />
+    <Content Include="Images\roundicons.png" />
+    <Content Include="Images\startup-framework-preview.png" />
+    <Content Include="Images\startup-framework.png" />
+    <Content Include="Images\themeforest.jpg" />
     <Content Include="Images\towers.png" />
+    <Content Include="Images\treehouse-preview.png" />
+    <Content Include="Images\treehouse.png" />
+    <Content Include="index.aspx" />
     <Content Include="MasterControles.aspx" />
+    <Content Include="PLD.aspx" />
+    <Content Include="Script\agency.js" />
+    <Content Include="Script\AjaxControlToolkit.dll" />
     <Content Include="Script\bootstrap.min.js" />
     <Content Include="Script\bootswatch.js" />
+    <Content Include="Script\cbpAnimatedHeader.js" />
+    <Content Include="Script\classie.js" />
+    <Content Include="Script\contact_me.js" />
+    <Content Include="Script\jqBootstrapValidation.js" />
+    <Content Include="Script\jquery-1.11.0.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
     <Compile Include="MasterControles.aspx.cs">
       <DependentUpon>MasterControles.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -80,9 +124,19 @@
     <Compile Include="MasterControles.aspx.designer.cs">
       <DependentUpon>MasterControles.aspx</DependentUpon>
     </Compile>
+    <Compile Include="PLD.aspx.cs">
+      <DependentUpon>PLD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PLD.aspx.designer.cs">
+      <DependentUpon>PLD.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Fonts\glyphicons-halflings-regular.woff" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
